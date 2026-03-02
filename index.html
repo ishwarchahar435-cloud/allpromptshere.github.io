@@ -1,1 +1,35 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>All Prompts Here - Free AI Prompt Generator</title>
+<meta name="description" content="Generate trending AI prompts for YouTube Shorts, Instagram Reels and AI Image tools for free.">
+<meta name="keywords" content="AI prompt generator, YouTube shorts ideas, Instagram reel hooks, AI image prompts">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {font-family: Arial; text-align:center; background:#111; color:white;}
+button {padding:10px 20px; margin:10px;}
+</style>
+</head>
+<body>
+<h1>All Prompts Here</h1>
+<p>Free Viral AI Prompt Generator</p>
+<button onclick="generate()">Generate Prompt</button>
+<p id="result"></p>
+
+<script>
+const prompts = [
+"Ultra realistic cinematic portrait of a warrior in rain",
+"Anime cyberpunk girl in neon city",
+"Top 5 shocking space facts",
+"1 minute horror story script"
+];
+
+function generate(){
+document.getElementById("result").innerText =
+prompts[Math.floor(Math.random()*prompts.length)];
+}
+</script>
+
+</body>
+</html>
